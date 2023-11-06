@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+	color:#2F3045;
+	font-weight:bold;
+	text-decoration:none;	
+}
+
+a:hover{
+	color:#9D0B1C;
+}
+
+body{
+	background:#FDFDFD;
+	color:#1F2045;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-top:50px;
+}
+
+form{
+	font-weight:bold;
+}
+
+input{
+	color:#1F2045;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-bottom:5px;
+	margin-top:2px;
+}
+
+input[type=text]{
+	width:315px;	
+}
+
+input[type=password]{
+	width:315px;	
+}
+
+.alert{
+	color:#9D0B1C;
+}
+
+.user_login{
+	border:1px solid #1F2045;
+	margin:auto;
+	padding:50px;
+	width:350px;	
+}

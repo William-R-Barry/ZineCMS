@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {
+	text-decoration:none;
+}
+
+body{
+	background-Image:url(View/Resources/Graphics/grey_wall_bg.jpg);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+}
+
+#container_content{
+	margin:auto;
+	width:1024px;
+}
+
+#container_header{
+	margin:auto;
+	width:1024px;
+}
+
+#Content{
+	background-color:#FFF;
+	margin-top:10px;
+	padding:10px;
+	width:1004px;
+}
+
+#container_title{
+	border-bottom:#FFF dotted 5px;
+	border-top:#FFF dotted 5px;
+	margin-bottom:10px;
+	margin-top:20px;
+	width:100%;
+}
+
+#footer{
+	border:#FFF dotted 5px;
+	height:50px;
+	margin-bottom:25px;
+	margin-top:15px;
+	padding:10px;
+}
+
+#navigation{
+	background-Image:url(View/Resources/Graphics/nav_main_graffiti_bg_01.jpg);
+	float:left;
+	height:271px;
+	padding-left:5px;
+	padding-top:10px;
+	width:790px;
+}
+
+.nav_button{
+	display:block;
+	filter:alpha(opacity=80); /* opacity for IE8 and earlier */
+	height:80px;
+	margin:5px;
+	opacity:0.8;
+	width:80px;
+}
+
+.nav_button:hover{
+	filter:alpha(opacity=95); /* opacity for IE8 and earlier */
+	opacity:0.95;
+}
+
+#nav_sound{
+	background-Image:url(View/Resources/Graphics/nav_button_sound.png);
+}
+
+#nav_Image{
+	background-Image:url(View/Resources/Graphics/nav_button_Image.png);
+}
+
+#nav_profile{
+	background-Image:url(View/Resources/Graphics/nav_button_profile.png);
+}
+
+#navigation_sub{
+	background-color:#FFF;
+	height:50px;
+	padding:10px;
+	margin-top:10px;
+	width:1004;
+}
+
+#site_title{
+	margin:auto;
+	padding-bottom:10px;
+	padding-top:10px;
+	width:1024px;
+}
+
+#utilities{
+	background-color:#FFF;
+	float:left;
+	height:261px;
+	padding:10px;
+	width:209px;
+}
